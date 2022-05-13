@@ -7,6 +7,7 @@ const UserSchema = new Schema({
   email: String,
   password: String,
   dateOfBirth: Date,
+  verified: Boolean,
 });
 
 // NEED CHECK IF TRUE: Creates a collection called user and stores the schema.
